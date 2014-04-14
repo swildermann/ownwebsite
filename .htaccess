@@ -1,0 +1,5 @@
+RedirectMatch 301 (.*)/pageID_13255900.html $1/index.html
+RedirectMatch 301 (.*)/pageID_13255933.html $1/lebenslauf.html
+RedirectMatch 301 (.*)/pageID_15437308.html $1/auswahl-von-artikeln.html
+RedirectMatch 301 (.*)/pageID_16755370.html $1/neukoellner-net.html
+RedirectMatch 301 (.*)/pageID_15532721.html $1/impressum.html
