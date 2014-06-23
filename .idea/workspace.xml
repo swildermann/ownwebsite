@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a7caa5-ae63-4881-8112-00bd82b06b3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sven/current.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sven/imprint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sven/vc.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stephanie/indexold.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sven/index.html" afterPath="$PROJECT_DIR$/sven/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sven/ownstyle.css" afterPath="$PROJECT_DIR$/sven/ownstyle.css" />
-    </list>
+    <list default="true" id="39a7caa5-ae63-4881-8112-00bd82b06b3d" name="Default" comment="" />
     <ignored path="ownwebsite.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
