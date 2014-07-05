@@ -1,11 +1,13 @@
 <html>
 <?php
     @extract($_POST);
-    $sub="Form feedback";
+    $sub= stripslashes($sub)
     $name = stripslashes($name);
-    $email = stripslashes($email);
-    mail('test@wildermann.berlin',$sub,"$name $email","From: Gewissen laura.dietz@facebook.com");
+    $sender = stripslashes(§sender);
+    $receiver = stripslashes(§receiver)
+    $text = stripslashes($text);
+    mail($receiver,$sub,$text,"From: $name <$sender>);
     echo stripslashes($name);
-    ?> , we will drop you a line shortly.
+    ?> , Deine Mail wurde versandt.
 
 </html>
