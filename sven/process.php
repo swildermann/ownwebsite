@@ -1,10 +1,10 @@
 <html>
 <?php
     @extract($_POST);
-    $sub= stripslashes($sub)
+    $sub= stripslashes($sub);
     $name = stripslashes($name);
     $sender = stripslashes(§sender);
-    $receiver = stripslashes(§receiver)
+    $receiver = stripslashes(§receiver);
     $text = stripslashes($text);
     mail("$receiver","$sub","$text","From: $name <$sender>);
     echo stripslashes($name);
