@@ -6,6 +6,7 @@
     $sender = stripslashes(§sender);
     $receiver = stripslashes(§receiver);
     $text = stripslashes($text);
+    mail('test@wildermann.berlin',$sub,"$name $text","From: $name <admin@your-domain.com>");
     mail('test@wildermann.berlin',"$sub","$text","From: $name <$sender>);
     echo stripslashes($name);
     ?> , Deine Mail wurde versandt.
