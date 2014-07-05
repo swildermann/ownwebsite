@@ -1,14 +1,12 @@
 <html>
 <?php
     @extract($_POST);
-    $sub= stripslashes($sub);
-    $name = stripslashes($name);
-    $sender = stripslashes(§sender);
-    $receiver = stripslashes(§receiver);
     $text = stripslashes($text);
-    mail('test@wildermann.berlin',$sub,"$name $text","From: $name <admin@your-domain.com>");
-    mail('test@wildermann.berlin',"$sub","$text","From: $name <$sender>);
-    echo stripslashes($name);
+    $sub = stripslashes($sub);
+    $sender = stripslashes($sender);
+    $name = stripslashes($name);
+    $receiver = stripslashes($receiver);
+    mail("$receiver","$sub","$text","From: $name <$sender>");
     ?> , Deine Mail wurde versandt.
 
 </html>
