@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.10//EN
+N:Wildermann;Sven;;;
+FN:Sven Wildermann
+EMAIL;type=INTERNET;type=HOME;type=pref:onlineqr@wildermann.berlin
+TEL;type=HOME;type=VOICE;type=pref:+491783575424
+ADR;type=HOME;type=pref:;Berlin\n12057\nGermany;Karl-Marx-Str. 277;;;;
+NOTE:http://www.wildermann.berlin
+UID:23abeade0d72fa33
+X-ABUID:2C7F217D-4AF4-47BF-B2EE-A1C6B89D671C:ABPerson
+END:VCARD
