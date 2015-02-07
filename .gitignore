@@ -1,8 +1,9 @@
 ## generic files to ignore
-*~
+
+*.iml
 *.mp4
 ./idea/
-./idea
+./idea*
 ./idea/*
 ./idea/*.*
 ./idea/*.
