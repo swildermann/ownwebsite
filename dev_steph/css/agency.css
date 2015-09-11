@@ -267,6 +267,7 @@ header {
     text-align: center;
     color: #000000;
     background: url(../img/header-test.jpg);
+    background-position: right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
